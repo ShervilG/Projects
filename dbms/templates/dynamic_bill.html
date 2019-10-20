@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>
+            Invoice !
+        </title>
+        <style>
+            #d1 {
+                border-style: solid;
+                border-width: 3px;
+                border-color: black;
+            }
+            table, th, td{
+                border: 1px solid black;
+                font-size: 20px;
+            }
+            p {
+                font-size: 20px;
+            }
+            hr {
+                border-width: 1px;
+                border-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div id = "d1">
+        <center>
+            <h1>Invoice</h1>
+        </center>
+            <p><b>Dated</b> : {{date1}}</p>
+            <br>
+            <p><b>Party name</b> : {{party_info[2]}}</p>
+            <p><b>Party address</b> : {{party_info[0]}}</p>
+            <p><b>GST number</b> : {{gno}}</p>
+            <p><b>Phone number</b> : {{party_info[3]}}</p>
+            <p><b>Bill number</b> : {{bno}}</p>
+            <hr>
+            <br>
+            <center>
+            <table>
+                <th>Material Name</th>
+                <th>Material Price</th>
+                <th>Material Quantity</th>
+                <th>Total Price</th>
+                {% for key,val in lis2.items() %}
+                    <tr>
+                        <td>{{val[0]}}</td>
+                        <td>{{val[1]}}</td>
+                        <td>{{val[2]}}</td>
+                        <td>{{val[3]}}</td>
+                    </tr> 
+                {% endfor %}
+            </table>
+            <br>
+            <br>
+                <p><b>Grand total cost : {{dd}}</b></p>
+            </center>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Information Purchase</title>
+        <link rel="stylesheet"href="{{url_for('static',filename='css/purchase.css')}}">
+    </head>
+    <body>
+        <center> 
+        <div class="Container">
+            <center>
+         <h1>Purchase Details</h1>
+            </center>
+        <form action = "/newp" method = "POST">
+        <input type="text" placeholder="Name" id="t1" name = "t1"><br><br>
+        <textarea rows="3" cols = "50" placeholder="Address" id="t2" name = "t2"></textarea><br><br>
+        <input type="text" placeholder="Number" id="t3" name = "t3"><br><br>
+        <input type="text" placeholder="GST No." id="t4" name = "t4"><br><br>
+        <input type="text" placeholder="Bill No." id="t4" name = "t5"><br><br>
+        <input type = "text" id = "date" name="date" placeholder = "date">
+        <input type = "text" placeholder = "month" id = "month" name="month">
+        <input type = "text" placeholder = "year" id = "year" name="year"><br><br>
+            <input type="submit" Value="Submit" id="t12" >
+        </form>  
+        </div>
+        </center>
+    </body>
+</html>

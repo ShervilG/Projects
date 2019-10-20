@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bill Invoice</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='css/Store.css')}}">
+    </head>
+    <body>
+        
+        <p></p>
+        <center>
+        <div class="header">
+        <h1>Bill Invoice</h1>
+        </div>
+        <div class="Square">
+        <form action = "/magic" method = "POST">
+        <input type="text" placeholder="Bill No" id="Search" name = "t1"><br><br>
+            <input type="submit" Value="Search" id="button">
+        </form>
+        </div>    
+        </center>
+  
+    </body>
+</html>

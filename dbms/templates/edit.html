@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <style>
+            p {
+                font-size: 20px;
+            }
+            hr {
+                border-width: 1px;
+                border-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <form action = "/update_material" method = "POST">
+            <table>
+                <th>Material Id</th>
+                <th>Material Name</th>
+                <th>Material Price</th>
+                <th>Material Quantity</th>
+                {% for key,val in lis2.items() %}
+                    <tr>
+                        <td><input type = "text" value = {{key}} name = "t1"></td>
+                        <td><input type = "text" value = {{val[0]}} name = "t2"></td>
+                        <td><input type = "text" value ={{val[1]}} name = "t3"></td>
+                        <td><input type = "text" value ={{val[2]}} name = "t4"></td>
+                    </tr> 
+                {% endfor %}
+            </table>
+                <input type="submit" value = "update">
+            </form>
+        </center>
+    </body>
+</html>

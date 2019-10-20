@@ -1,0 +1,28 @@
+.container
+{
+    background-image:url(prof_back2.jpg);
+    height:200px;
+    width:300px;
+    padding:100px;
+    border: 2px solid black;
+    margin-top:10%;
+    margin-left: 35%;
+    
+
+}
+html
+{
+    background-color: #db4dff;
+    background-image:url(prof_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+h1
+{
+    text-align: center;
+}
+form
+{
+    text-align: center;
+}

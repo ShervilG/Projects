@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Information Sell</title>
+        <link rel="stylesheet"href="{{url_for('static',filename='css/Material_info.css')}}">
+    </head>
+    <body>
+        <center>
+            <form action="/p_info" method="post">
+        <div class="Container">
+            <center>
+         <h1>Sell Details</h1>
+            </center>
+        <input type="text" placeholder="Product Name" id="t5" name="name1"><br><br>
+        <input type="text" placeholder="Quantity Of Product"  id="t6" name="qty1"> <br><br>
+        <input type="text" placeholder="Price"  id="t7" name="price1"> <br><br>
+            <input type="submit" Value="Add Product" id="t13" ><br><br>
+        <a href = "/finalize_product">
+            <input type="button" Value="Submit" id="t12">
+        </a>
+            </div>
+    </form>
+        </center>  
+    </body>
+</html>

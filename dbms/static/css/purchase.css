@@ -1,0 +1,50 @@
+html
+{
+   background-image:url(prof_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+h1
+{
+
+font-family: monospace;    
+}
+.Container
+{
+ margin-top: 12.2%;
+ padding: :10px;
+ background-image: linear-gradient(	 #d6d6c2,#b3c6ff);
+ width:350px;
+ height:400px;        
+}
+#t2
+{
+width:150px;    
+}
+#date
+{
+width:45px;    
+}
+#month
+{
+width:45px;    
+}
+#year
+{
+width:50px;    
+}
+
+#t12
+{
+background-color:#44ac33;
+width:200px;
+height:30px;
+border-style: solid;
+border-width: 3px;
+border-color: black;
+box-shadow: 2px 5px;
+font-family: monospace;
+font-size: 0.8em;
+font-weight: bold;
+}
+}

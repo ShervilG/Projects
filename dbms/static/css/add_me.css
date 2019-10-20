@@ -1,0 +1,71 @@
+html
+{
+    background-image: url('prof_back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:firebrick;
+  height:78px;
+      
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+marquee
+{
+    color:bisque;
+    margin-left:35%;
+    margin-top: 1.2%;
+    width:900px;
+    height: 50px;
+    font-size: 40px;
+    font-family:monospace;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.active {
+  height: 70px;
+  width: 70px;    
+  font-size:27px;    
+  background-color: #4CAF50;
+}
+
+.logo
+{
+background-image: url('rajaram-tmt.jpg');
+     background-repeat: no-repeat;
+    background-size: cover;
+width: 100px;
+height:50px;    
+}
+p
+{
+font-size:25px;     
+}
+.explain
+{
+background-image: url('firm_back2.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+height:600px;
+color:bisque;
+font-family:monospace;
+font-size:20px;        
+}

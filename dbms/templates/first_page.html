@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Steel Firm Bill Managment
+    </title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/first_page.css')}}">
+</head>
+    <Body>
+        <div class="container" >
+            <h1>Login Portal</h1>
+            <form method = "POST" action = "/check">
+                <label
+                       for="username">Username</label><br>
+                <input type="text" id="username" name="username" required><br><br>
+                <label for="psw">Password</label><br>
+                <input type="text" id="psw" name="psw" required><br><br>
+                <input type="submit" Value="Login">
+            </form>
+        </div>
+    </Body>
+</html>

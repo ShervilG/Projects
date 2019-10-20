@@ -1,0 +1,119 @@
+body
+{
+  background-image:url(prof_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+#b1
+{
+    margin-top: 4%;
+    margin-left: 12%;
+    position: absolute;
+    width: 300px;
+    height:150px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 2px 5px;
+    font-family:serif;
+    font-size: 30px;
+    background-image:url(PicsArt_04-15-05.40.36.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:bisque;
+}
+
+#b2
+{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 2.78%;
+    width: 300px;
+    height: 150px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 2px 5px;
+    font-family: monospace;
+    font-size: 30px;
+    background-image:url(Screenshot_2019-04-15-17-59-06-486_com.miui.gallery.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:bisque;
+
+}
+/*#b3
+{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 11%;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 2px 5px;
+    font-family: monospace;
+    font-size: 20px;
+}*/
+#b4
+{
+    position: absolute;
+    margin-left: 37.6%;
+    margin-top: 16.4%;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 2px 5px;
+    font-family: monospace;
+    font-size: 20px;
+    background-image:url(IMG_20190415_174004_01_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:bisque;
+}
+#b5
+{
+    position: absolute;
+    margin-top:31%;
+    margin-left:11.05%;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 2px 5px;
+    font-family: monospace;
+    font-size: 30px;
+    background-image:url(PicsArt_04-15-05.41.20.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:bisque;
+}
+#b6
+{
+    position: absolute;
+    margin-left: 63.6%;
+    margin-top: 31%;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 2px 5px;
+    font-family: monospace;
+    font-size: 30px;
+    background-image:url(PicsArt_04-15-05.38.48.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:bisque;
+}
+}
+

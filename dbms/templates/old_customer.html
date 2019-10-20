@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Information Purchase</title>
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/old_party.css') }}">
+    </head>
+    <body>
+        <center>
+            <form method = "POST" action = "/save_old">
+        <div class="Container">
+        <center>
+        <h1>Sell Details</h1>
+        </center>
+           <input type="text" placeholder="GST No." id="t4" name = "gst"><br><br>
+        <input type="text" placeholder="BillNo"  id="t8" name = "bno"> <br><br>
+        <input type="text" placeholder="Date"  id="t9" name = "date">
+        <input type="text" placeholder="Month"  id="t10" name = "month">
+        <input type="text" placeholder="Year"  id="t11" name = "year"> <br><br>
+            <input type="submit" Value="Submit" id="t12">
+                </div>
+            </form>
+        </center>
+    
+    </body>
+</html>

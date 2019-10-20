@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Material</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='css/Store.css')}}">
+    </head>
+    <body>
+        <center>
+        <div class="header">
+        <h1>Add Material</h1>    
+        </div>    
+        <div class="Square">
+        <form action = "/add_mat" method = "POST">
+        <input type="text" placeholder="Material Name" id="Search" name = "mname"><br><br>
+        <input type="text" placeholder="Material Price" id="Search" name = "price"><br><br>   
+        <input type="submit" Value="Submit" id="button">
+        </form>
+        </div>
+        </center>
+    </body>
+</html>

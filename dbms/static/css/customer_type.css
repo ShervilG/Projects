@@ -1,0 +1,43 @@
+body
+{
+  background-image:url(prof_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+#b1 
+{
+    margin-top: 7.6%;
+    margin-left: 12%;
+    position: absolute;
+    width: 400px;
+    height:350px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 2px 5px;
+    font-family:serif;
+    font-size: 30px;
+    background-image:url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:forestgreen;
+}
+#b2 
+{
+    margin-top: 6.86%;
+    margin-left: 55%;
+    position: absolute;
+    width: 400px;
+    height:350px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 2px 5px;
+    font-family:serif;
+    font-size: 30px;
+    background-image:url(3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:forestgreen;
+}
+  

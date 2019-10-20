@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            Web App !
+        </title>
+        <style>
+            h1 {
+                font-size: 24px;        
+            }   
+            #t1 {
+                border-style: solid;
+                border-width: 2px;
+                border-color: black;
+                resize: none;
+                font-size: 18px;
+                text-align: left;
+            }
+            #b {
+                border-style: solid;
+                border-width: 2px;
+                border-color: black;
+                resize: none;
+                font-size: 18px;
+            }
+            #t2 {
+                border-style: solid;
+                border-width: 2px;
+                border-color: black;
+                resize: none;
+                font-size: 18px;
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>Text Summarizer</h1>
+            <br>
+            <form action = "/action" method = "POST">
+                <textarea name = "t1" id = "t1" rows = 27 cols = 90></textarea>
+                <br>
+                <input type = "submit" value = "Summarize" id = "b">
+                <br>
+                <textarea readonly name = "t2" id = "t2" rows = 20 cols = 90>{{summary}}</textarea>  
+            </form>
+        </center>
+    </body>
+</html>
